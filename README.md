@@ -1,8 +1,8 @@
-#Real-time Collaboration Application in Three.js
+#Serverless Mesh Processing Microservice in Node.js
 ========
-### [Running Demo](http://storage.googleapis.com/hecodes/app/index.html)
+### [Running Demo](https://lucasmajerowicz.github.io/serverless-mesh-processing/app/)
 
-### Accompanying blog post [here](http://hecodes.com/2016/08/building-real-time-collaboration-applications-three-js)
+### Accompanying blog post [here](http://hecodes.com/2016/09/serverless-mesh-processing-microservice-in-node-js)
 
 ## Installation
 Clone repository and run
@@ -12,11 +12,6 @@ npm install
 ```
 
 ## Usage
-Run server
-```
-node app/server.js
-```
-
 Run client
 
 ```

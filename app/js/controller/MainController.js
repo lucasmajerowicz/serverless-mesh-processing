@@ -49,7 +49,7 @@ export default class MainController {
     }
 
     loadModelFromUrl(url) {
-        loader.load(url, (geometry) => {
+        loader.load(url.replace(/^http:\/\//i, 'https://'), (geometry) => {
             if (this.mesh) {
                 this.mesh.geometry = geometry;
                 this.mesh.geometry.computeVertexNormals();

@@ -50127,7 +50127,7 @@
 	        value: function loadModelFromUrl(url) {
 	            var _this2 = this;
 
-	            loader.load(url, function (geometry) {
+	            loader.load(url.replace(/^http:\/\//i, 'https://'), function (geometry) {
 	                if (_this2.mesh) {
 	                    _this2.mesh.geometry = geometry;
 	                    _this2.mesh.geometry.computeVertexNormals();

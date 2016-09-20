@@ -100,9 +100,3 @@ function simplifyModel(name, perc, callback) {
         }
     });
 }
-/*
- simplifyGeometry('http://s3.amazonaws.com/hecodes-p6/d.stl', 0.9, (url) => {
-
- console.log(url);
- });*/
-

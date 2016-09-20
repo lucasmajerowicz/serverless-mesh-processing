@@ -55,7 +55,9 @@ export default class MainController {
                 this.mesh.geometry.computeVertexNormals();
             } else {
                 this.mesh = new THREE.Mesh(geometry, material);
-
+                this.mesh.scale.x = 10;
+                this.mesh.scale.y = 10;
+                this.mesh.scale.z = 10;
                 this.view.renderingContext.scene.add(this.mesh);
             }
         });

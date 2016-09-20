@@ -17,7 +17,6 @@ export default class RenderingContext {
 
         camera.position.set( 500, 800, 1300 );
         camera.lookAt( new THREE.Vector3() );
-        camera.fov /= 2;
 
         camera.updateProjectionMatrix();
 

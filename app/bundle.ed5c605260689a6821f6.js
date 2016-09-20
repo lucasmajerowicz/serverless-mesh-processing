@@ -50133,7 +50133,9 @@
 	                    _this2.mesh.geometry.computeVertexNormals();
 	                } else {
 	                    _this2.mesh = new THREE.Mesh(geometry, material);
-
+	                    _this2.mesh.scale.x = 10;
+	                    _this2.mesh.scale.y = 10;
+	                    _this2.mesh.scale.z = 10;
 	                    _this2.view.renderingContext.scene.add(_this2.mesh);
 	                }
 	            });
@@ -50302,7 +50304,6 @@
 
 	            camera.position.set(500, 800, 1300);
 	            camera.lookAt(new THREE.Vector3());
-	            camera.fov /= 2;
 
 	            camera.updateProjectionMatrix();
 
